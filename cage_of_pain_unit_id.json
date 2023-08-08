@@ -3,8 +3,23 @@
     "unitId":  "cage_of_pain_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "start_with_0_mana_ability_id",
-                      "sword_rain_ability_id"
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      },
+                      {
+                          "_id":  "sword_rain_ability_id",
+                          "aoeRange":  "150",
+                          "baseDamage":  "35.00000",
+                          "category":  "abilities",
+                          "description":  "|desc(iron_hail,$1)",
+                          "descriptionId":  "sword_rain_description",
+                          "iconPath":  "Icons/SwordRain.png",
+                          "name":  "Sword Rain",
+                          "tooltip":  "Unleashes a volley of cursed swords, dealing 35x3 Pierce damage in a small area around the target. Ability damage."
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  ".77",

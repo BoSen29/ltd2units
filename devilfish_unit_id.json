@@ -3,7 +3,15 @@
     "unitId":  "devilfish_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "adapt_into_seraphin_ability_id"
+                      {
+                          "_id":  "adapt_into_seraphin_ability_id",
+                          "category":  "abilities",
+                          "description":  "Changes form into a Seraphin. Can only be used during the build phase.",
+                          "descriptionId":  "adapt_into_seraphin_description",
+                          "iconPath":  "Icons/Adapt(intoSeraphin).png",
+                          "name":  "Adapt (into Seraphin)",
+                          "tooltip":  "Changes form into a Seraphin. Can only be used during the build phase."
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  ".91",

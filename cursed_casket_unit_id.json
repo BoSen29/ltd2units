@@ -3,8 +3,23 @@
     "unitId":  "cursed_casket_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "start_with_0_mana_ability_id",
-                      "iron_hail_ability_id"
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      },
+                      {
+                          "_id":  "iron_hail_ability_id",
+                          "aoeRange":  "150",
+                          "baseDamage":  "20.00000",
+                          "category":  "abilities",
+                          "description":  "Unleashes a volley of cursed swords, dealing $1 |proper(PierceAttack) damage in a small area around the target. Ability damage.",
+                          "descriptionId":  "iron_hail_description",
+                          "iconPath":  "Icons/IronHail.png",
+                          "name":  "Iron Hail",
+                          "tooltip":  "Unleashes a volley of cursed swords, dealing 20x3 Pierce damage in a small area around the target. Ability damage."
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  ".77",

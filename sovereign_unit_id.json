@@ -3,9 +3,28 @@
     "unitId":  "sovereign_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "final_judgment_ability_id",
-                      "disable_mana_regen_tower_only_ability_id",
-                      "final_judgment_hidden_effect_ability_id"
+                      {
+                          "_id":  "final_judgment_ability_id",
+                          "category":  "abilities",
+                          "description":  "Gains mana every time it attacks and is attacked. Each $2% mana increases attack speed by $3% and health by $1. At max mana, attacks deal $4% splash damage in a large radius for $5 attacks.",
+                          "descriptionId":  "final_judgment_description",
+                          "duration":  "25.00000",
+                          "iconPath":  "Icons/FinalJudgment.png",
+                          "name":  "Final Judgment",
+                          "tooltip":  "Gains mana every time it attacks and is attacked. Each 10% mana increases attack speed by 4% and health by 200. At max mana, attacks deal 25% splash damage in a large radius for 25 attacks."
+                      },
+                      {
+                          "_id":  "disable_mana_regen_tower_only_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/DisableManaRegen(TowerOnly).png",
+                          "name":  "Disable Mana Regen (Tower Only)"
+                      },
+                      {
+                          "_id":  "final_judgment_hidden_effect_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/final_judgment_hidden_effect.png",
+                          "name":  "final_judgment_hidden_effect"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  "1.13",

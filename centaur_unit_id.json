@@ -3,7 +3,16 @@
     "unitId":  "centaur_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "cleave_ability_id"
+                      {
+                          "_id":  "cleave_ability_id",
+                          "aoeRange":  "150",
+                          "category":  "abilities",
+                          "description":  "Each attack deals $1% damage to up to $2 nearby enemies",
+                          "descriptionId":  "cleave_description",
+                          "iconPath":  "Icons/Cleave.png",
+                          "name":  "Cleave",
+                          "tooltip":  "Each attack deals 40% damage to up to 3 nearby enemies"
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  "1.85",

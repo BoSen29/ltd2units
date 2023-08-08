@@ -3,8 +3,20 @@
     "unitId":  "test_worker_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "deliver_ability_id",
-                      "harvest_ability_id"
+                      {
+                          "_id":  "deliver_ability_id",
+                          "category":  "abilities",
+                          "descriptionId":  "none_description",
+                          "iconPath":  "Icons/Deliver.png",
+                          "name":  "Deliver"
+                      },
+                      {
+                          "_id":  "harvest_ability_id",
+                          "category":  "abilities",
+                          "descriptionId":  "none_description",
+                          "iconPath":  "Icons/Harvest.png",
+                          "name":  "Harvest"
+                      }
                   ],
     "armorType":  "",
     "aspdInverted":  "1.00",

@@ -3,7 +3,15 @@
     "unitId":  "veteran_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "stimpack_ability_id"
+                      {
+                          "_id":  "stimpack_ability_id",
+                          "category":  "abilities",
+                          "description":  "|desc(booster,125,500)",
+                          "descriptionId":  "stimpack_description",
+                          "iconPath":  "Icons/Stimpack.png",
+                          "name":  "Stimpack",
+                          "tooltip":  "Boosts this unit\u0027s attack speed by 125% and increases range to 500 for the next wave only"
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  "1.09",

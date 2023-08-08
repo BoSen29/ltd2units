@@ -3,7 +3,17 @@
     "unitId":  "elite_archer_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "Multishot_ability_id"
+                      {
+                          "_id":  "Multishot_ability_id",
+                          "bounces":  "0",
+                          "category":  "abilities",
+                          "cooldown":  "0.10000",
+                          "description":  "Fires $1 additional arrows at enemies near its attack target. Multiple arrows can hit the same target. Ability damage.",
+                          "descriptionId":  "multishot_description",
+                          "iconPath":  "Icons/Multishot.png",
+                          "name":  "Multishot",
+                          "tooltip":  "Fires 3 additional arrows at enemies near its attack target. Multiple arrows can hit the same target. Ability damage."
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  "1.03",

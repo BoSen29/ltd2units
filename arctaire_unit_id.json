@@ -3,9 +3,32 @@
     "unitId":  "arctaire_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "frozen_veil_ability_id",
-                      "frozen_veil_boss_ability_id",
-                      "nimble_feet_ability_id"
+                      {
+                          "_id":  "frozen_veil_ability_id",
+                          "aoeRange":  "500",
+                          "category":  "abilities",
+                          "description":  "Deals $1 damage per second and reduces the attack speed of nearby enemies by $2% in a large area. Stacks with itself. |img(icons/Pure.png) |proper(PureAttack) ability damage.",
+                          "descriptionId":  "frozen_veil_description",
+                          "iconPath":  "Icons/FrozenVeil.png",
+                          "name":  "Frozen Veil",
+                          "tooltip":  "Deals 8 damage per second and reduces the attack speed of nearby enemies by 2% in a large area. Stacks with itself. \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Pure.png\u0027 /\u0026gt; Pure ability damage."
+                      },
+                      {
+                          "_id":  "frozen_veil_boss_ability_id",
+                          "aoeRange":  "500",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/FrozenVeil.png",
+                          "name":  "Frozen Veil"
+                      },
+                      {
+                          "_id":  "nimble_feet_ability_id",
+                          "category":  "abilities",
+                          "description":  "Has a $1% chance to dodge each incoming attack.",
+                          "descriptionId":  "nimble_feet_description",
+                          "iconPath":  "Icons/NimbleFeet.png",
+                          "name":  "Nimble Feet",
+                          "tooltip":  "Has a 25% chance to dodge each incoming attack."
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  "1.18",

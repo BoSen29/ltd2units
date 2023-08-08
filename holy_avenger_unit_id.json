@@ -3,9 +3,28 @@
     "unitId":  "holy_avenger_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "aegis_ability_id",
-                      "disable_mana_regen_tower_only_ability_id",
-                      "aegis_hidden_effect_ability_id"
+                      {
+                          "_id":  "aegis_ability_id",
+                          "category":  "abilities",
+                          "description":  "Gains mana every time it attacks and is attacked. Each $2% mana increases attack speed by $3% and health by $1. At max mana, attacks deal $4% splash damage in a small radius for $5 attacks.",
+                          "descriptionId":  "aegis_description",
+                          "duration":  "25.00000",
+                          "iconPath":  "Icons/Aegis.png",
+                          "name":  "Aegis",
+                          "tooltip":  "Gains mana every time it attacks and is attacked. Each 10% mana increases attack speed by 4% and health by 80. At max mana, attacks deal 25% splash damage in a small radius for 25 attacks."
+                      },
+                      {
+                          "_id":  "disable_mana_regen_tower_only_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/DisableManaRegen(TowerOnly).png",
+                          "name":  "Disable Mana Regen (Tower Only)"
+                      },
+                      {
+                          "_id":  "aegis_hidden_effect_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/AegisManaOnAttack.png",
+                          "name":  "Aegis Mana On Attack"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  "1.13",

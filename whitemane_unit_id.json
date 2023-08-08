@@ -3,10 +3,37 @@
     "unitId":  "whitemane_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "council_oracle_ability_id",
-                      "council_ability_id",
-                      "council_antler_ability_id",
-                      "council_antler_oracle_ability_id"
+                      {
+                          "_id":  "council_oracle_ability_id",
+                          "aoeRange":  "120",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/Council.png",
+                          "name":  "Council"
+                      },
+                      {
+                          "_id":  "council_ability_id",
+                          "aoeRange":  "120",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/Council.png",
+                          "name":  "Council"
+                      },
+                      {
+                          "_id":  "council_antler_ability_id",
+                          "aoeRange":  "120",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/Council.png",
+                          "name":  "Council"
+                      },
+                      {
+                          "_id":  "council_antler_oracle_ability_id",
+                          "aoeRange":  "120",
+                          "category":  "abilities",
+                          "description":  "Adjacently-built units take $1 + $2% ($3% for Antlers) reduced damage from all sources.  Does not stack.",
+                          "descriptionId":  "council_description",
+                          "iconPath":  "Icons/Council.png",
+                          "name":  "Council",
+                          "tooltip":  "Adjacently-built units take 5 + 10% (20% for Antlers) reduced damage from all sources.  Does not stack."
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  ".74",

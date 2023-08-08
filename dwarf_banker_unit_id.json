@@ -3,11 +3,39 @@
     "unitId":  "dwarf_banker_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "disable_mana_regen_ability_id",
-                      "start_with_0_mana_ability_id",
-                      "mana_transfer_on_becomes_fighter_ability_id",
-                      "mana_transfer_on_upgrade_ability_id",
-                      "compound_interest_ability_id"
+                      {
+                          "_id":  "disable_mana_regen_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/DisableManaRegen.png",
+                          "name":  "Disable Mana Regen"
+                      },
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      },
+                      {
+                          "_id":  "mana_transfer_on_becomes_fighter_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ManaTransferOnBecomesFighter.png",
+                          "name":  "Mana Transfer On Becomes Fighter"
+                      },
+                      {
+                          "_id":  "mana_transfer_on_upgrade_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ManaTransferOnUpgrade.png",
+                          "name":  "Mana Transfer On Upgrade"
+                      },
+                      {
+                          "_id":  "compound_interest_ability_id",
+                          "category":  "abilities",
+                          "description":  "If it survives the wave, it gains $1 mana based on the wave number and earns |img(icons/Gold.png) $2 per mana. If it dies, it loses half mana. Mana transfers when upgraded.",
+                          "descriptionId":  "compound_interest_description",
+                          "iconPath":  "Icons/CompoundInterest.png",
+                          "name":  "Compound Interest",
+                          "tooltip":  "If it survives the wave, it gains 1-6 mana based on the wave number and earns \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Gold.png\u0027 /\u0026gt; 1 per mana. If it dies, it loses half mana. Mana transfers when upgraded."
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  ".88",

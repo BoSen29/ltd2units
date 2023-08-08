@@ -3,7 +3,15 @@
     "unitId":  "ghost_knight_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "evasion_ability_id"
+                      {
+                          "_id":  "evasion_ability_id",
+                          "category":  "abilities",
+                          "description":  "Reduces damage taken from autoattacks (non-ability damage) by $1%",
+                          "descriptionId":  "ghostwalker_description",
+                          "iconPath":  "Icons/GhostWalker.png",
+                          "name":  "Ghost Walker",
+                          "tooltip":  "Reduces damage taken from autoattacks (non-ability damage) by 20%"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  ".91",

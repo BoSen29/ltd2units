@@ -3,7 +3,15 @@
     "unitId":  "spectral_scallywag_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "unyielding_spirit_ability_id"
+                      {
+                          "_id":  "unyielding_spirit_ability_id",
+                          "category":  "abilities",
+                          "description":  "After not being attacked for $1 seconds, Regenerates $2 max health per second",
+                          "descriptionId":  "unyielding_spirit_description",
+                          "iconPath":  "Icons/UnyieldingSpirit.png",
+                          "name":  "Unyielding Spirit",
+                          "tooltip":  "After not being attacked for 3 seconds, Regenerates 2% max health per second"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  ".87",

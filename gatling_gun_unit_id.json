@@ -3,8 +3,21 @@
     "unitId":  "gatling_gun_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "full_throttle_ability_id",
-                      "gatling_hidden_ability_id"
+                      {
+                          "_id":  "full_throttle_ability_id",
+                          "category":  "abilities",
+                          "description":  "Attacks up to $1% faster the closer the target is, but also overheats, taking up to $3% more damage.",
+                          "descriptionId":  "full_throttle_description",
+                          "iconPath":  "Icons/FullThrottle.png",
+                          "name":  "Full Throttle",
+                          "tooltip":  "Attacks up to 70% faster the closer the target is, but also overheats, taking up to 50% more damage."
+                      },
+                      {
+                          "_id":  "gatling_hidden_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/GatlingGun.png",
+                          "name":  "Gatling Gun"
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  "2.17",

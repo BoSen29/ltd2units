@@ -3,9 +3,31 @@
     "unitId":  "soul_gate_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "dimensional_rift_ability_id",
-                      "blood_price_ability_id",
-                      "soul_gate_reduced_healing_ability_id"
+                      {
+                          "_id":  "dimensional_rift_ability_id",
+                          "category":  "abilities",
+                          "description":  "Summons a Hellion and Nightcrawler",
+                          "descriptionId":  "dimensional_rift_description",
+                          "duration":  "180.00000",
+                          "iconPath":  "Icons/DimensionalRift.png",
+                          "name":  "Dimensional Rift",
+                          "tooltip":  "Summons a Hellion and Nightcrawler"
+                      },
+                      {
+                          "_id":  "blood_price_ability_id",
+                          "category":  "abilities",
+                          "description":  "Every time it summons a unit, it loses $1% max hp (can kill itself).",
+                          "descriptionId":  "blood_price_description",
+                          "iconPath":  "Icons/BloodPrice.png",
+                          "name":  "Blood Price",
+                          "tooltip":  "Every time it summons a unit, it loses 20% max hp (can kill itself)."
+                      },
+                      {
+                          "_id":  "soul_gate_reduced_healing_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/SoulGateReducedHealing.png",
+                          "name":  "Soul Gate Reduced Healing"
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  ".95",

@@ -3,7 +3,15 @@
     "unitId":  "walking_fortress_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "stone_legs_ability_id"
+                      {
+                          "_id":  "stone_legs_ability_id",
+                          "category":  "abilities",
+                          "description":  "Has $1 damage reduction, but moves $2 slower than other fighters.",
+                          "descriptionId":  "stone_legs_description",
+                          "iconPath":  "Icons/StoneLegs.png",
+                          "name":  "Stone Legs",
+                          "tooltip":  "Has 25% damage reduction, but moves 80% slower than other fighters."
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  "1.00",

@@ -3,7 +3,16 @@
     "unitId":  "safety_mole_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "protection_aura_ability_id"
+                      {
+                          "_id":  "protection_aura_ability_id",
+                          "aoeRange":  "1000",
+                          "category":  "abilities",
+                          "description":  "Nearby allies take $1 reduced damage from all sources. Does not stack.",
+                          "descriptionId":  "protection_aura_description",
+                          "iconPath":  "Icons/SafetyAura.png",
+                          "name":  "Safety Aura",
+                          "tooltip":  "Nearby allies take 4 reduced damage from all sources. Does not stack."
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  ".87",

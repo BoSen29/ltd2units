@@ -3,7 +3,15 @@
     "unitId":  "mimic_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "plunder_ability_id"
+                      {
+                          "_id":  "plunder_ability_id",
+                          "category":  "abilities",
+                          "description":  "Gains +$1 gold based on wave number each time it kills a unit.",
+                          "descriptionId":  "plunder_description",
+                          "iconPath":  "Icons/Plunder.png",
+                          "name":  "Plunder",
+                          "tooltip":  "Gains +2-7 gold based on wave number each time it kills a unit."
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  "1.18",

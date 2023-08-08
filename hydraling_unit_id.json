@@ -3,7 +3,12 @@
     "unitId":  "hydraling_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "hydra_hidden_ability_id"
+                      {
+                          "_id":  "hydra_hidden_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/Hydra.png",
+                          "name":  "Hydra"
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  ".83",

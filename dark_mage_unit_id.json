@@ -3,9 +3,31 @@
     "unitId":  "dark_mage_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "mindwarp_ability_id",
-                      "frenzy_ability_id",
-                      "start_with_0_mana_ability_id"
+                      {
+                          "_id":  "mindwarp_ability_id",
+                          "category":  "abilities",
+                          "description":  "Increase the attack speed of the highest DPS nearby unit by $1% for $3 seconds",
+                          "descriptionId":  "mindwarp_description",
+                          "duration":  "5.00000",
+                          "iconPath":  "Icons/MindWarp.png",
+                          "name":  "Mind Warp",
+                          "tooltip":  "Increase the attack speed of the highest DPS nearby unit by 35% for 5 seconds"
+                      },
+                      {
+                          "_id":  "frenzy_ability_id",
+                          "category":  "abilities",
+                          "description":  "Regenerates $1% missing health per second",
+                          "descriptionId":  "frenzy_description",
+                          "iconPath":  "Icons/SkeletalRegeneration.png",
+                          "name":  "Skeletal Regeneration",
+                          "tooltip":  "Regenerates 3 + 3% missing health per second"
+                      },
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  ".89",

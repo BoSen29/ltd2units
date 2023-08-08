@@ -3,12 +3,48 @@
     "unitId":  "big_wig_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "disable_mana_regen_ability_id",
-                      "start_with_0_mana_ability_id",
-                      "mana_transfer_on_becomes_fighter_ability_id",
-                      "mana_transfer_on_upgrade_ability_id",
-                      "aggressive_portfolio_ability_id",
-                      "short_selling_ability_id"
+                      {
+                          "_id":  "disable_mana_regen_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/DisableManaRegen.png",
+                          "name":  "Disable Mana Regen"
+                      },
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      },
+                      {
+                          "_id":  "mana_transfer_on_becomes_fighter_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ManaTransferOnBecomesFighter.png",
+                          "name":  "Mana Transfer On Becomes Fighter"
+                      },
+                      {
+                          "_id":  "mana_transfer_on_upgrade_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ManaTransferOnUpgrade.png",
+                          "name":  "Mana Transfer On Upgrade"
+                      },
+                      {
+                          "_id":  "aggressive_portfolio_ability_id",
+                          "category":  "abilities",
+                          "description":  "If it survives the wave, it gains $1 mana based on the wave number and earns |img(icons/Gold.png) $2 per mana. If it dies, it loses ALL mana.",
+                          "descriptionId":  "aggressive_portfolio_description",
+                          "iconPath":  "Icons/AggressivePortfolio.png",
+                          "name":  "Aggressive Portfolio",
+                          "tooltip":  "If it survives the wave, it gains 1-6 mana based on the wave number and earns \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Gold.png\u0027 /\u0026gt; 3 per mana. If it dies, it loses ALL mana."
+                      },
+                      {
+                          "_id":  "short_selling_ability_id",
+                          "category":  "abilities",
+                          "description":  "Does not gain mana or gold from |proper(aggressive_portfolio) this wave, but also does not lose mana if it dies.",
+                          "descriptionId":  "short_selling_description",
+                          "iconPath":  "Icons/ShortSelling.png",
+                          "name":  "Short Selling",
+                          "tooltip":  "Does not gain mana or gold from Aggressive Portfolio this wave, but also does not lose mana if it dies."
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  ".88",

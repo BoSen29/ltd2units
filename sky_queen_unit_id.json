@@ -3,9 +3,30 @@
     "unitId":  "sky_queen_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "acrobatics_ability_id",
-                      "crimson_claws_ability_id",
-                      "start_with_0_mana_ability_id"
+                      {
+                          "_id":  "acrobatics_ability_id",
+                          "category":  "abilities",
+                          "description":  "Starts with $1 mana, but gains mana when it moves before entering battle. Each $2 mana increases attack speed by $3%.",
+                          "descriptionId":  "acrobatics_description",
+                          "iconPath":  "Icons/Acrobatics.png",
+                          "name":  "Acrobatics",
+                          "tooltip":  "Starts with 0 mana, but gains mana when it moves before entering battle. Each 8 mana increases attack speed by 15%."
+                      },
+                      {
+                          "_id":  "crimson_claws_ability_id",
+                          "category":  "abilities",
+                          "description":  "|desc(high_voltage,0.7)",
+                          "descriptionId":  "crimson_claws_description",
+                          "iconPath":  "Icons/CrimsonClaws.png",
+                          "name":  "Crimson Claws",
+                          "tooltip":  "Restores 0.7 mana with each attack"
+                      },
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  "1.46",

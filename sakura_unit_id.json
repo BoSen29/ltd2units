@@ -3,7 +3,15 @@
     "unitId":  "sakura_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "superbloom_ability_id"
+                      {
+                          "_id":  "superbloom_ability_id",
+                          "category":  "abilities",
+                          "description":  "If it survives the wave, gains $1 hp and $2 damage after the wave ends (doubled starting wave 11).",
+                          "descriptionId":  "superbloom_description",
+                          "iconPath":  "Icons/Superbloom.png",
+                          "name":  "Superbloom",
+                          "tooltip":  "If it survives the wave, gains 110 hp and 8 damage after the wave ends (doubled starting wave 11)."
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  "1.12",

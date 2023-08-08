@@ -3,7 +3,15 @@
     "unitId":  "annihilator_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "plasma_bolts_ability_id"
+                      {
+                          "_id":  "plasma_bolts_ability_id",
+                          "category":  "abilities",
+                          "description":  "Attacks at full speed at any range.",
+                          "descriptionId":  "plasma_bolts_description",
+                          "iconPath":  "Icons/PlasmaBolts.png",
+                          "name":  "Plasma Bolts",
+                          "tooltip":  "Attacks at full speed at any range."
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  "2.00",

@@ -3,10 +3,36 @@
     "unitId":  "tree_of_knowledge_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "forbidden_fruit_ability_id",
-                      "forbidden_fruit_mana_on_attack_ability_id",
-                      "forbidden_fruit_mana_on_attacked_ability_id",
-                      "disable_mana_regen_tower_only_ability_id"
+                      {
+                          "_id":  "forbidden_fruit_ability_id",
+                          "aoeRange":  "300",
+                          "baseDamage":  "0.00000",
+                          "category":  "abilities",
+                          "description":  "Gains mana every time it attacks and is attacked. When this unit dies or reaches max mana, deals up to $1 damage to nearby enemies, based on its current mana. |img(icons/Magic.png) |proper(MagicAttack) ability damage.",
+                          "descriptionId":  "forbidden_fruit_description",
+                          "iconPath":  "Icons/ForbiddenFruit.png",
+                          "name":  "Forbidden Fruit",
+                          "tooltip":  "Gains mana every time it attacks and is attacked. When this unit dies or reaches max mana, deals up to 600 damage to nearby enemies, based on its current mana. \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Magic.png\u0027 /\u0026gt; Magic ability damage."
+                      },
+                      {
+                          "_id":  "forbidden_fruit_mana_on_attack_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ForbiddenFruitManaOnAttack.png",
+                          "name":  "Forbidden Fruit Mana On Attack"
+                      },
+                      {
+                          "_id":  "forbidden_fruit_mana_on_attacked_ability_id",
+                          "category":  "abilities",
+                          "descriptionId":  "none_description",
+                          "iconPath":  "Icons/ForbiddenFruitManaOnAttacked.png",
+                          "name":  "Forbidden Fruit Mana On Attacked"
+                      },
+                      {
+                          "_id":  "disable_mana_regen_tower_only_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/DisableManaRegen(TowerOnly).png",
+                          "name":  "Disable Mana Regen (Tower Only)"
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  ".79",

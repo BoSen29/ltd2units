@@ -3,7 +3,15 @@
     "unitId":  "tree_of_life_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "devotion_ability_id"
+                      {
+                          "_id":  "devotion_ability_id",
+                          "category":  "abilities",
+                          "description":  "Grants $2% missing health regeneration to the unit built directly behind it.",
+                          "descriptionId":  "devotion_description",
+                          "iconPath":  "Icons/Devotion.png",
+                          "name":  "Devotion",
+                          "tooltip":  "Grants 4.75% missing health regeneration to the unit built directly behind it."
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  ".79",

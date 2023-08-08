@@ -3,9 +3,36 @@
     "unitId":  "eggsack_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "incubation_ability_id",
-                      "ambernite_shell_ability_id",
-                      "eggsplosion_ability_id"
+                      {
+                          "_id":  "incubation_ability_id",
+                          "category":  "abilities",
+                          "description":  "If killed before hatching naturally, it will hatch with penalized stats. Each stack reduces damage dealt by $1% and increases damage taken by $2%.",
+                          "descriptionId":  "incubation_description",
+                          "iconPath":  "Icons/Incubation.png",
+                          "name":  "Incubation",
+                          "tooltip":  "If killed before hatching naturally, it will hatch with penalized stats. Each stack reduces damage dealt by 17.5% and increases damage taken by 17.5%."
+                      },
+                      {
+                          "_id":  "ambernite_shell_ability_id",
+                          "baseDamage":  "10.00000",
+                          "category":  "abilities",
+                          "description":  "Whenever this unit is attacked, it reflects $1 damage back as damage. |img(icons/Pure.png) |proper(PureAttack) ability damage.",
+                          "descriptionId":  "azurite_shell_description",
+                          "iconPath":  "Icons/AzuriteShell.png",
+                          "name":  "Azurite Shell",
+                          "tooltip":  "Whenever this unit is attacked, it reflects 10 damage back as damage. \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Pure.png\u0027 /\u0026gt; Pure ability damage."
+                      },
+                      {
+                          "_id":  "eggsplosion_ability_id",
+                          "aoeRange":  "150",
+                          "baseDamage":  "80.00000",
+                          "category":  "abilities",
+                          "description":  "When this unit dies, it explodes, dealing $1 damage to nearby enemies. |img(icons/Pure.png) |proper(PureAttack) ability damage.",
+                          "descriptionId":  "eggsplosion_description",
+                          "iconPath":  "Icons/Eggsplosion.png",
+                          "name":  "Eggsplosion",
+                          "tooltip":  "When this unit dies, it explodes, dealing 80 damage to nearby enemies. \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Pure.png\u0027 /\u0026gt; Pure ability damage."
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  ".96",

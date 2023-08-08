@@ -3,9 +3,28 @@
     "unitId":  "wale_chief_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "poison_tipped_pole_active_ability_id",
-                      "start_with_0_mana_ability_id",
-                      "mana_on_attack_ability_id"
+                      {
+                          "_id":  "poison_tipped_pole_active_ability_id",
+                          "baseDamage":  "240.00000",
+                          "category":  "abilities",
+                          "description":  "Deals $2 single-target and $1 splash damage every fourth attack. |img(icons/Magic.png) |proper(MagicAttack) ability damage.",
+                          "descriptionId":  "poison_tipped_pole_description",
+                          "iconPath":  "Icons/Poison-TippedPole.png",
+                          "name":  "Poison-Tipped Pole",
+                          "tooltip":  "Deals 240 single-target and 20 splash damage every fourth attack. \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Magic.png\u0027 /\u0026gt; Magic ability damage."
+                      },
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      },
+                      {
+                          "_id":  "mana_on_attack_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ManaOnAttack.png",
+                          "name":  "Mana On Attack"
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  "1.47",

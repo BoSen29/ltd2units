@@ -3,7 +3,15 @@
     "unitId":  "siege_ram_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "deflection_ability_id"
+                      {
+                          "_id":  "deflection_ability_id",
+                          "category":  "abilities",
+                          "description":  "Reduces damage taken from ranged units by $1%",
+                          "descriptionId":  "deflection_description",
+                          "iconPath":  "Icons/Deflection.png",
+                          "name":  "Deflection",
+                          "tooltip":  "Reduces damage taken from ranged units by 15%"
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  ".77",

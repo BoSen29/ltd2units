@@ -3,7 +3,16 @@
     "unitId":  "banana_bunk_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "barbs_ability_id"
+                      {
+                          "_id":  "barbs_ability_id",
+                          "baseDamage":  "13.00000",
+                          "category":  "abilities",
+                          "description":  "|desc(thorns,13,10)",
+                          "descriptionId":  "barbs_description",
+                          "iconPath":  "Icons/Barbs.png",
+                          "name":  "Barbs",
+                          "tooltip":  "Whenever this unit is attacked, it reflects 13 + 10% damage taken back as pierce damage. Ability damage."
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  "1.20",

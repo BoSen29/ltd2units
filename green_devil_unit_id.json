@@ -3,7 +3,15 @@
     "unitId":  "green_devil_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "granite_skin_ability_id"
+                      {
+                          "_id":  "granite_skin_ability_id",
+                          "category":  "abilities",
+                          "description":  "Takes $1% reduced damage",
+                          "descriptionId":  "granite_skin_description",
+                          "iconPath":  "Icons/GraniteSkin.png",
+                          "name":  "Granite Skin",
+                          "tooltip":  "Takes 1 + 35% reduced damage"
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  "1.30",

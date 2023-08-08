@@ -3,8 +3,26 @@
     "unitId":  "banana_haven_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "thorns_ability_id",
-                      "tribal_warfare_ability_id"
+                      {
+                          "_id":  "thorns_ability_id",
+                          "baseDamage":  "20.00000",
+                          "category":  "abilities",
+                          "description":  "Whenever this unit is attacked, it reflects $1 + $2% damage taken back as pierce damage. Ability damage.",
+                          "descriptionId":  "thorns_description",
+                          "iconPath":  "Icons/Thorns.png",
+                          "name":  "Thorns",
+                          "tooltip":  "Whenever this unit is attacked, it reflects 20 + 15% damage taken back as pierce damage. Ability damage."
+                      },
+                      {
+                          "_id":  "tribal_warfare_ability_id",
+                          "bounces":  "0",
+                          "category":  "abilities",
+                          "description":  "Attacks up to $1 units at once but can still strike the same unit with multiple bananas. Ability damage.",
+                          "descriptionId":  "tribal_warfare_description",
+                          "iconPath":  "Icons/TribalWarfare.png",
+                          "name":  "Tribal Warfare",
+                          "tooltip":  "Attacks up to 3 units at once but can still strike the same unit with multiple bananas. Ability damage."
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  "1.20",

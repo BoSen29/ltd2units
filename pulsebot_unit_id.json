@@ -3,7 +3,16 @@
     "unitId":  "pulsebot_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "emp_ability_id"
+                      {
+                          "_id":  "emp_ability_id",
+                          "aoeRange":  "250",
+                          "category":  "abilities",
+                          "description":  "Every attack splits its damage equally among enemies near the target. Deals $1 more damage for each enemy hit.",
+                          "descriptionId":  "emp_description",
+                          "iconPath":  "Icons/EMP.png",
+                          "name":  "EMP",
+                          "tooltip":  "Every attack splits its damage equally among enemies near the target. Deals 25% more damage for each enemy hit."
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  ".95",

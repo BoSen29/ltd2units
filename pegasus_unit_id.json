@@ -3,8 +3,23 @@
     "unitId":  "pegasus_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "mana_miracle_ability_id",
-                      "mana_miracle_self_buff_ability_id"
+                      {
+                          "_id":  "mana_miracle_ability_id",
+                          "aoeRange":  "1000",
+                          "category":  "abilities",
+                          "description":  "Restore the mana of nearby allies. Each point of mana restores $1 mana, up to a maximum of $2 per target. Extra mana will bounce to nearby allies. If there are no nearby allies in need of mana, instead boosts its own attack speed and damage reduction by $3% for 5 seconds.",
+                          "descriptionId":  "mana_miracle_description",
+                          "iconPath":  "Icons/ManaMiracle.png",
+                          "name":  "Mana Miracle",
+                          "tooltip":  "Restore the mana of nearby allies. Each point of mana restores 1.5 mana, up to a maximum of 3 per target. Extra mana will bounce to nearby allies. If there are no nearby allies in need of mana, instead boosts its own attack speed and damage reduction by 20% for 5 seconds."
+                      },
+                      {
+                          "_id":  "mana_miracle_self_buff_ability_id",
+                          "category":  "abilities",
+                          "duration":  "5.0000",
+                          "iconPath":  "Icons/ManaMiracle.png",
+                          "name":  "Mana Miracle"
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  ".83",

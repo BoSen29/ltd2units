@@ -3,7 +3,16 @@
     "unitId":  "gateguard_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "hound_ability_id"
+                      {
+                          "_id":  "hound_ability_id",
+                          "category":  "abilities",
+                          "description":  "Summons a Chaos Hound",
+                          "descriptionId":  "hound_description",
+                          "duration":  "40.00000",
+                          "iconPath":  "Icons/SummonHound.png",
+                          "name":  "Summon Hound",
+                          "tooltip":  "Summons a Chaos Hound"
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  ".99",

@@ -3,8 +3,23 @@
     "unitId":  "butcher_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "leech_oracle_ability_id",
-                      "leech_ability_id"
+                      {
+                          "_id":  "leech_oracle_ability_id",
+                          "aoeRange":  "120",
+                          "category":  "abilities",
+                          "description":  "Grants $2% lifesteal and ability vamp to adjacently-built units. Does not stack.",
+                          "descriptionId":  "leech_description",
+                          "iconPath":  "Icons/Leech.png",
+                          "name":  "Leech",
+                          "tooltip":  "Grants 20% lifesteal and ability vamp to adjacently-built units. Does not stack."
+                      },
+                      {
+                          "_id":  "leech_ability_id",
+                          "aoeRange":  "120",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/Leech.png",
+                          "name":  "Leech"
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  ".99",

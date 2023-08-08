@@ -3,7 +3,15 @@
     "unitId":  "golem_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "harden_golem_ability_id"
+                      {
+                          "_id":  "harden_golem_ability_id",
+                          "category":  "abilities",
+                          "description":  "Grants $1% damage reduction for the next wave. The wave after, it recovers and takes $2% extra damage.",
+                          "descriptionId":  "harden_description",
+                          "iconPath":  "Icons/Harden.png",
+                          "name":  "Harden",
+                          "tooltip":  "Grants 3 + 15% damage reduction for the next wave. The wave after, it recovers and takes 3 + 15% extra damage."
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  ".75",

@@ -3,7 +3,15 @@
     "unitId":  "reactor_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "reception_ability_id"
+                      {
+                          "_id":  "reception_ability_id",
+                          "category":  "abilities",
+                          "description":  "Allows for deployment of Mech units",
+                          "descriptionId":  "reception_description",
+                          "iconPath":  "Icons/Reception.png",
+                          "name":  "Reception",
+                          "tooltip":  "Allows for deployment of Mech units"
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  "",

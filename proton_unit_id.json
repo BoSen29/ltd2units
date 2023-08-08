@@ -3,8 +3,24 @@
     "unitId":  "proton_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "generator_ability_id",
-                      "ionic_force_proton_ability_id"
+                      {
+                          "_id":  "generator_ability_id",
+                          "category":  "abilities",
+                          "description":  "Starts with $1 mana, but gains mana per second",
+                          "descriptionId":  "generator_description",
+                          "iconPath":  "Icons/Generator.png",
+                          "name":  "Generator",
+                          "tooltip":  "Starts with 0 mana, but gains mana per second"
+                      },
+                      {
+                          "_id":  "ionic_force_proton_ability_id",
+                          "category":  "abilities",
+                          "description":  "Increases attack speed by $1% for each $2% current mana",
+                          "descriptionId":  "ionic_force_aspd_description",
+                          "iconPath":  "Icons/IonicForce.png",
+                          "name":  "Ionic Force",
+                          "tooltip":  "Increases attack speed by 30% for each 10% current mana"
+                      }
                   ],
     "armorType":  "Immaterial",
     "aspdInverted":  "1.17",

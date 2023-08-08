@@ -3,9 +3,35 @@
     "unitId":  "daphne_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "precision_ability_id",
-                      "mark_target_ability_id",
-                      "mark_target_boss_ability_id"
+                      {
+                          "_id":  "precision_ability_id",
+                          "baseDamage":  "15.00000",
+                          "category":  "abilities",
+                          "description":  "|desc(accuracy,15)",
+                          "descriptionId":  "precision_description",
+                          "iconPath":  "Icons/Precision.png",
+                          "name":  "Precision",
+                          "tooltip":  "Deals 15 bonus damage to bosses. \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Pure.png\u0027 /\u0026gt; Pure ability damage."
+                      },
+                      {
+                          "_id":  "mark_target_ability_id",
+                          "bounces":  "0",
+                          "category":  "abilities",
+                          "description":  "Each attack amplifies all damage taken by $1 ($2 to bosses), stacking up to $3 times.",
+                          "descriptionId":  "mark_target_description",
+                          "duration":  "3.000",
+                          "iconPath":  "Icons/MarkTarget.png",
+                          "name":  "Mark Target",
+                          "tooltip":  "Each attack amplifies all damage taken by 1 (0.5 to bosses), stacking up to 10 times."
+                      },
+                      {
+                          "_id":  "mark_target_boss_ability_id",
+                          "bounces":  "0",
+                          "category":  "abilities",
+                          "duration":  "3.000",
+                          "iconPath":  "Icons/MarkTarget.png",
+                          "name":  "Mark Target"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  "1.25",

@@ -3,9 +3,35 @@
     "unitId":  "hades_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "conjure_thanatos_ability_id",
-                      "necromancy_ability_id",
-                      "intellect_hades_ability_id"
+                      {
+                          "_id":  "conjure_thanatos_ability_id",
+                          "category":  "abilities",
+                          "description":  "Summons |proper(thanatos) (|proper(MagicAttack)/|proper(ArcaneArmor))",
+                          "descriptionId":  "conjure_thanatos_description",
+                          "duration":  "40.00000",
+                          "iconPath":  "Icons/ConjureThanatos.png",
+                          "name":  "Conjure Thanatos",
+                          "tooltip":  "Summons Thanatos (Magic/Arcane)"
+                      },
+                      {
+                          "_id":  "necromancy_ability_id",
+                          "aoeRange":  "800",
+                          "category":  "abilities",
+                          "description":  "Restores $1 mana when a nearby enemy dies, excluding Froggos.",
+                          "descriptionId":  "necromancy_description",
+                          "iconPath":  "Icons/Necromancy.png",
+                          "name":  "Necromancy",
+                          "tooltip":  "Restores 3 mana when a nearby enemy dies, excluding Froggos."
+                      },
+                      {
+                          "_id":  "intellect_hades_ability_id",
+                          "category":  "abilities",
+                          "description":  "Killing a unit restores $1% mana",
+                          "descriptionId":  "intellect_lod_hades_description",
+                          "iconPath":  "Icons/Intellect.png",
+                          "name":  "Intellect",
+                          "tooltip":  "Killing a unit restores 8% mana"
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  "1.00",

@@ -3,10 +3,37 @@
     "unitId":  "ocean_templar_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "resonance_oracle_ability_id",
-                      "resonance_ability_id",
-                      "resonance_oracle_gate_ability_id",
-                      "resonance_gate_ability_id"
+                      {
+                          "_id":  "resonance_oracle_ability_id",
+                          "aoeRange":  "120",
+                          "category":  "abilities",
+                          "description":  "Grants to adjacently-built units $2% missing health regeneration and $4% damage reduction from magic damage. Does not stack.",
+                          "descriptionId":  "resonance_description",
+                          "iconPath":  "Icons/Resonance.png",
+                          "name":  "Resonance",
+                          "tooltip":  "Grants to adjacently-built units 2.75% missing health regeneration and 12% damage reduction from magic damage. Does not stack."
+                      },
+                      {
+                          "_id":  "resonance_ability_id",
+                          "aoeRange":  "120",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/Resonance.png",
+                          "name":  "Resonance"
+                      },
+                      {
+                          "_id":  "resonance_oracle_gate_ability_id",
+                          "aoeRange":  "120",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/Resonance.png",
+                          "name":  "Resonance"
+                      },
+                      {
+                          "_id":  "resonance_gate_ability_id",
+                          "aoeRange":  "120",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/Resonance.png",
+                          "name":  "Resonance"
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  ".85",

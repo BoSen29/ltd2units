@@ -3,8 +3,25 @@
     "unitId":  "doomsday_machine_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "detonation_ability_id",
-                      "detonation_flying_ability_id"
+                      {
+                          "_id":  "detonation_ability_id",
+                          "aoeRange":  "150",
+                          "baseDamage":  "75.00000",
+                          "category":  "abilities",
+                          "description":  "|desc(explosive_shells,75,75)",
+                          "descriptionId":  "detonation_description",
+                          "iconPath":  "Icons/Detonation.png",
+                          "name":  "Detonation",
+                          "tooltip":  "When dealing the killing blow, deals 75 impact damage to enemies in an area around the dying unit. Ability damage."
+                      },
+                      {
+                          "_id":  "detonation_flying_ability_id",
+                          "aoeRange":  "150",
+                          "baseDamage":  "75.00000",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/Detonation.png",
+                          "name":  "Detonation"
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  ".63",

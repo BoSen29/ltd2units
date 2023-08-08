@@ -3,9 +3,33 @@
     "unitId":  "maccabeus_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "insatiable_hunger_ability_id",
-                      "boss_status_ability_id",
-                      "devour_maccabeus_ability_id"
+                      {
+                          "_id":  "insatiable_hunger_ability_id",
+                          "category":  "abilities",
+                          "description":  "Gains 1% bonus damage and heals by $2 whenever it kills a unit. ",
+                          "descriptionId":  "insatiable_hunger_description",
+                          "iconPath":  "Icons/InsatiableHunger.png",
+                          "name":  "Insatiable Hunger",
+                          "tooltip":  "Gains 1% bonus damage and heals by 100 whenever it kills a unit. "
+                      },
+                      {
+                          "_id":  "boss_status_ability_id",
+                          "category":  "abilities",
+                          "description":  "Reduces the duration or effectiveness of most debuffs",
+                          "descriptionId":  "boss_status_description",
+                          "iconPath":  "Icons/BossUnit.png",
+                          "name":  "Boss Unit",
+                          "tooltip":  "Reduces the duration or effectiveness of most debuffs"
+                      },
+                      {
+                          "_id":  "devour_maccabeus_ability_id",
+                          "category":  "abilities",
+                          "description":  "|desc(devour,0.5)",
+                          "descriptionId":  "none_description",
+                          "iconPath":  "Icons/Devour.png",
+                          "name":  "Devour",
+                          "tooltip":  "When this unit lands a killing blow, it heals itself for 0.5% of its max health."
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  "10.00",

@@ -3,8 +3,25 @@
     "unitId":  "azeria_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "invigorate_azeria_ability_id",
-                      "echostrike_azeria_ability_id"
+                      {
+                          "_id":  "invigorate_azeria_ability_id",
+                          "category":  "abilities",
+                          "description":  "Increases her attack speed by $1% and heals for $2% missing health/sec for $3 seconds",
+                          "descriptionId":  "invigorate_description",
+                          "duration":  "5.0000",
+                          "iconPath":  "Icons/Invigorate.png",
+                          "name":  "Invigorate",
+                          "tooltip":  "Increases her attack speed by 100% and heals for 8% missing health/sec for 5 seconds"
+                      },
+                      {
+                          "_id":  "echostrike_azeria_ability_id",
+                          "category":  "abilities",
+                          "description":  "Each attack launches $1 extra missiles, each dealing $2% base damage plus bonus damage equal to $3% target max health. Ability damage.",
+                          "descriptionId":  "echostrike_description",
+                          "iconPath":  "Icons/Echostrike.png",
+                          "name":  "Echostrike",
+                          "tooltip":  "Each attack launches 2 extra missiles, each dealing 100% base damage plus bonus damage equal to 0.1% target max health. Ability damage."
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  ".97",

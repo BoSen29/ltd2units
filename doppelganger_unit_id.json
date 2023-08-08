@@ -3,7 +3,15 @@
     "unitId":  "doppelganger_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "shadow_walker_ability_id"
+                      {
+                          "_id":  "shadow_walker_ability_id",
+                          "category":  "abilities",
+                          "description":  "Each attack increases attack damage by $1",
+                          "descriptionId":  "shadow_walker_description",
+                          "iconPath":  "Icons/Fatality.png",
+                          "name":  "Fatality",
+                          "tooltip":  "Each attack increases attack damage by 2"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  "1.94",

@@ -3,7 +3,17 @@
     "unitId":  "trinity_archer_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "hypershot_ability_id"
+                      {
+                          "_id":  "hypershot_ability_id",
+                          "bounces":  "0",
+                          "category":  "abilities",
+                          "cooldown":  "0.10000",
+                          "description":  "|desc(multishot,4)",
+                          "descriptionId":  "hypershot_description",
+                          "iconPath":  "Icons/Hypershot.png",
+                          "name":  "Hypershot",
+                          "tooltip":  "Fires 4 additional arrows at enemies near its attack target. Multiple arrows can hit the same target. Ability damage."
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  "1.03",

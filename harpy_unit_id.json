@@ -3,8 +3,21 @@
     "unitId":  "harpy_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "acrobatics_harpy_ability_id",
-                      "start_with_0_mana_ability_id"
+                      {
+                          "_id":  "acrobatics_harpy_ability_id",
+                          "category":  "abilities",
+                          "description":  "|desc(acrobatics,0,2,15)",
+                          "descriptionId":  "acrobatics_harpy_description",
+                          "iconPath":  "Icons/Acrobatics.png",
+                          "name":  "Acrobatics",
+                          "tooltip":  "Starts with 0 mana, but gains mana when it moves before entering battle. Each 2 mana increases attack speed by 15%."
+                      },
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  "1.46",

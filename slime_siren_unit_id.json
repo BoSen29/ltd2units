@@ -3,10 +3,35 @@
     "unitId":  "slime_siren_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "slime_propagation_ability_id",
-                      "slime_propagation_mana_on_attack_ability_id",
-                      "slime_propagation_mana_ability_id",
-                      "disable_mana_regen_tower_only_ability_id"
+                      {
+                          "_id":  "slime_propagation_ability_id",
+                          "category":  "abilities",
+                          "description":  "Gains mana whenever it attacks or is attacked. When this unit dies, it leaves behind a |proper(slime_larva_unit). If its mana is maxed, it spawns 3 |proper(slime_larva_unit).",
+                          "descriptionId":  "slime_propagation_description",
+                          "duration":  "2.00000",
+                          "iconPath":  "Icons/SlimePropagation.png",
+                          "name":  "Slime Propagation",
+                          "tooltip":  "Gains mana whenever it attacks or is attacked. When this unit dies, it leaves behind a Slime Larva. If its mana is maxed, it spawns 3 Slime Larva."
+                      },
+                      {
+                          "_id":  "slime_propagation_mana_on_attack_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/SlimePropagationManaOnAttack.png",
+                          "name":  "Slime Propagation Mana On Attack"
+                      },
+                      {
+                          "_id":  "slime_propagation_mana_ability_id",
+                          "category":  "abilities",
+                          "descriptionId":  "none_description",
+                          "iconPath":  "Icons/SlimePropagationManaOnAttacked.png",
+                          "name":  "Slime Propagation Mana On Attacked"
+                      },
+                      {
+                          "_id":  "disable_mana_regen_tower_only_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/DisableManaRegen(TowerOnly).png",
+                          "name":  "Disable Mana Regen (Tower Only)"
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  "1.34",

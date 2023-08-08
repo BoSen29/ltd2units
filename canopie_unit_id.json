@@ -3,7 +3,15 @@
     "unitId":  "canopie_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "cell_regrowth_canopie_ability_id"
+                      {
+                          "_id":  "cell_regrowth_canopie_ability_id",
+                          "category":  "abilities",
+                          "description":  "|desc(cell_regrowth)",
+                          "descriptionId":  "cell_regrowth_canopie_description",
+                          "iconPath":  "Icons/CellRegrowth.png",
+                          "name":  "Cell Regrowth",
+                          "tooltip":  "Starts with $1% health, but regenerates $2% of missing health per second"
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  ".87",

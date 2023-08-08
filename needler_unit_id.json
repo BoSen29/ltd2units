@@ -3,10 +3,41 @@
     "unitId":  "needler_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "needle_spray_ability_id",
-                      "rapid_fire_ability_id",
-                      "start_with_0_mana_ability_id",
-                      "needler_mana_on_kill_ability_id"
+                      {
+                          "_id":  "needle_spray_ability_id",
+                          "bounces":  "0",
+                          "category":  "abilities",
+                          "cooldown":  "0.10000",
+                          "description":  "Fires $1 additional needles at enemies near its attack target. Multiple needles can hit the same target. Also, gains $2 mana when it kills a unit.",
+                          "descriptionId":  "needle_spray_description",
+                          "iconPath":  "Icons/NeedleSpray.png",
+                          "name":  "Needle Spray",
+                          "tooltip":  "Fires 2 additional needles at enemies near its attack target. Multiple needles can hit the same target. Also, gains 1 mana when it kills a unit."
+                      },
+                      {
+                          "_id":  "rapid_fire_ability_id",
+                          "category":  "abilities",
+                          "description":  "Gains $1 attack speed for $2 seconds. Stacks with itself.",
+                          "descriptionId":  "rapid_fire_description",
+                          "duration":  "5.00000",
+                          "iconPath":  "Icons/RapidFire.png",
+                          "name":  "Rapid Fire",
+                          "tooltip":  "Gains 35% attack speed for 5 seconds. Stacks with itself."
+                      },
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      },
+                      {
+                          "_id":  "needler_mana_on_kill_ability_id",
+                          "aoeRange":  "800",
+                          "category":  "abilities",
+                          "descriptionId":  "none_description",
+                          "iconPath":  "Icons/NeedlerManaOnKill.png",
+                          "name":  "Needler Mana On Kill"
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  "1.90",

@@ -3,7 +3,16 @@
     "unitId":  "berserker_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "brawler_ramping_ability_id"
+                      {
+                          "_id":  "brawler_ramping_ability_id",
+                          "baseDamage":  "5.00000",
+                          "category":  "abilities",
+                          "description":  "Deals $1 bonus magic damage for each consecutive attack against the same target. Ability damage.",
+                          "descriptionId":  "brawler_ramping_description",
+                          "iconPath":  "Icons/Brawler.png",
+                          "name":  "Brawler",
+                          "tooltip":  "Deals 5 bonus magic damage for each consecutive attack against the same target. Ability damage."
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  "2.04",

@@ -3,8 +3,26 @@
     "unitId":  "witch_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "summon_froggo_ability_id",
-                      "advanced_necromancy_ability_id"
+                      {
+                          "_id":  "summon_froggo_ability_id",
+                          "category":  "abilities",
+                          "description":  "Summons a Froggo",
+                          "descriptionId":  "summon_froggo_description",
+                          "duration":  "180.0000",
+                          "iconPath":  "Icons/SummonFroggo.png",
+                          "name":  "Summon Froggo",
+                          "tooltip":  "Summons a Froggo"
+                      },
+                      {
+                          "_id":  "advanced_necromancy_ability_id",
+                          "aoeRange":  "800",
+                          "category":  "abilities",
+                          "description":  "Restores $1 mana when a nearby unit dies, excluding Froggos",
+                          "descriptionId":  "witchcraft_description",
+                          "iconPath":  "Icons/Witchcraft.png",
+                          "name":  "Witchcraft",
+                          "tooltip":  "Restores 3 mana when a nearby unit dies, excluding Froggos"
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  "1.32",

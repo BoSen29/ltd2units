@@ -3,8 +3,24 @@
     "unitId":  "pack_rat_nest_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "treasure_hunt_effect_ability_id",
-                      "undo_treasure_hunt_ability_id"
+                      {
+                          "_id":  "treasure_hunt_effect_ability_id",
+                          "category":  "abilities",
+                          "description":  "Your Pack Rat abandons this wave\u0027s battle. When the wave ends, it returns and you gain +$1 mythium.",
+                          "descriptionId":  "treasure_hunt_description",
+                          "iconPath":  "Icons/TreasureHunt.png",
+                          "name":  "Treasure Hunt",
+                          "tooltip":  "Your Pack Rat abandons this wave\u0027s battle. When the wave ends, it returns and you gain +11 mythium."
+                      },
+                      {
+                          "_id":  "undo_treasure_hunt_ability_id",
+                          "category":  "abilities",
+                          "description":  "Undo",
+                          "descriptionId":  "undo_description",
+                          "iconPath":  "Icons/UndoTreasureHunt.png",
+                          "name":  "Undo Treasure Hunt",
+                          "tooltip":  "Undo"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  ".77",

@@ -3,7 +3,15 @@
     "unitId":  "grarl_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "delicacy_hardcoded_ability_id"
+                      {
+                          "_id":  "delicacy_hardcoded_ability_id",
+                          "category":  "abilities",
+                          "description":  "May be sold for $1% of its total cost on any wave",
+                          "descriptionId":  "delicacy_description",
+                          "iconPath":  "Icons/Delicacy.png",
+                          "name":  "Delicacy",
+                          "tooltip":  "May be sold for 90% of its total cost on any wave"
+                      }
                   ],
     "armorType":  "Natural",
     "aspdInverted":  ".85",

@@ -3,8 +3,25 @@
     "unitId":  "fire_archer_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "flaming_arrows_ability_id",
-                      "frenzy_ability_id"
+                      {
+                          "_id":  "flaming_arrows_ability_id",
+                          "baseDamage":  "40.000",
+                          "category":  "abilities",
+                          "description":  "Each attack deals $1 bonus damage. |img(icons/Magic.png) |proper(MagicAttack) ability damage.",
+                          "descriptionId":  "flaming_arrows_description",
+                          "iconPath":  "Icons/FlamingArrows.png",
+                          "name":  "Flaming Arrows",
+                          "tooltip":  "Each attack deals 40 bonus damage. \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Magic.png\u0027 /\u0026gt; Magic ability damage."
+                      },
+                      {
+                          "_id":  "frenzy_ability_id",
+                          "category":  "abilities",
+                          "description":  "Regenerates $1% missing health per second",
+                          "descriptionId":  "frenzy_description",
+                          "iconPath":  "Icons/SkeletalRegeneration.png",
+                          "name":  "Skeletal Regeneration",
+                          "tooltip":  "Regenerates 3 + 3% missing health per second"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  ".91",

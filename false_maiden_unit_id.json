@@ -3,7 +3,16 @@
     "unitId":  "false_maiden_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "spectral_scream_ability_id"
+                      {
+                          "_id":  "spectral_scream_ability_id",
+                          "baseDamage":  "0.00000",
+                          "category":  "abilities",
+                          "description":  "Each attack hits up to 3 nearby units. Cannot target the same unit twice. Ability damage.",
+                          "descriptionId":  "spectral_scream_description",
+                          "iconPath":  "Icons/SpectralScream.png",
+                          "name":  "Spectral Scream",
+                          "tooltip":  "Each attack hits up to 3 nearby units. Cannot target the same unit twice. Ability damage."
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  "1.03",

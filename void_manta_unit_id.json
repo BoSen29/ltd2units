@@ -3,8 +3,27 @@
     "unitId":  "void_manta_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "plasma_decay_ability_id",
-                      "plasma_burst_ability_id"
+                      {
+                          "_id":  "plasma_decay_ability_id",
+                          "bounces":  "0",
+                          "category":  "abilities",
+                          "description":  "Reduces an enemy\u0027s damage by $1 ($2 to bosses), stacking up to $3 times",
+                          "descriptionId":  "plasma_decay_description",
+                          "duration":  "3.000",
+                          "iconPath":  "Icons/PlasmaDecay.png",
+                          "name":  "Plasma Decay",
+                          "tooltip":  "Reduces an enemy\u0027s damage by 10 (5 to bosses), stacking up to 15 times"
+                      },
+                      {
+                          "_id":  "plasma_burst_ability_id",
+                          "category":  "abilities",
+                          "description":  "|desc(burst_attack,2,100)",
+                          "descriptionId":  "plasma_burst_description",
+                          "duration":  "3.00000",
+                          "iconPath":  "Icons/PlasmaBurst.png",
+                          "name":  "Plasma Burst",
+                          "tooltip":  "Each attack launches 2 extra missiles, each dealing 100% base damage. Ability damage."
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  "1.00",

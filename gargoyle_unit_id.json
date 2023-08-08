@@ -3,7 +3,15 @@
     "unitId":  "gargoyle_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "stone_form_new_ability_id"
+                      {
+                          "_id":  "stone_form_new_ability_id",
+                          "category":  "abilities",
+                          "description":  "Takes $1% reduced damage",
+                          "descriptionId":  "stone_form_new_description",
+                          "iconPath":  "Icons/StoneSkin.png",
+                          "name":  "Stone Skin",
+                          "tooltip":  "Takes 1 + 30% reduced damage"
+                      }
                   ],
     "armorType":  "Arcane",
     "aspdInverted":  ".91",

@@ -3,9 +3,28 @@
     "unitId":  "ogre_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "knock_out_new_ability_id",
-                      "mana_on_attack_and_on_kill_ability_id",
-                      "start_with_0_mana_ability_id"
+                      {
+                          "_id":  "knock_out_new_ability_id",
+                          "baseDamage":  "125.00000",
+                          "category":  "abilities",
+                          "description":  "Deals $1 Impact damage every third attack. Refreshes on kill.",
+                          "descriptionId":  "knock_out_new_description",
+                          "iconPath":  "Icons/KnockOut.png",
+                          "name":  "Knock Out",
+                          "tooltip":  "Deals 125 Impact damage every third attack. Refreshes on kill."
+                      },
+                      {
+                          "_id":  "mana_on_attack_and_on_kill_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ManaOnAttackAndKill.png",
+                          "name":  "Mana On Attack And Kill"
+                      },
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  "1.34",

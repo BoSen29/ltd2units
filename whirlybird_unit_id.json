@@ -3,9 +3,28 @@
     "unitId":  "whirlybird_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "giga_boomstick_ability_id",
-                      "mana_on_attack_and_on_kill_ability_id",
-                      "start_with_0_mana_ability_id"
+                      {
+                          "_id":  "giga_boomstick_ability_id",
+                          "baseDamage":  "100.00000",
+                          "category":  "abilities",
+                          "description":  "Every $1 attacks or whenever it gets a kill, its next attack fires an oversized rocket that deals $2 |img(icons/Impact.png) |proper(ImpactAttack) damage.",
+                          "descriptionId":  "giga_boomstick_description",
+                          "iconPath":  "Icons/GigaBoomstick.png",
+                          "name":  "Giga Boomstick",
+                          "tooltip":  "Every 3 attacks or whenever it gets a kill, its next attack fires an oversized rocket that deals 100 \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Impact.png\u0027 /\u0026gt; Impact damage."
+                      },
+                      {
+                          "_id":  "mana_on_attack_and_on_kill_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ManaOnAttackAndKill.png",
+                          "name":  "Mana On Attack And Kill"
+                      },
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  ".77",

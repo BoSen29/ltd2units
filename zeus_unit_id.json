@@ -3,8 +3,26 @@
     "unitId":  "zeus_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "power_surge_ability_id",
-                      "high_voltage_ability_id"
+                      {
+                          "_id":  "power_surge_ability_id",
+                          "baseDamage":  "160.00000",
+                          "category":  "abilities",
+                          "cooldown":  "1.00000",
+                          "description":  "Deal $1 bonus magic damage to a single target. |img(icons/Magic.png) |proper(MagicAttack) ability damage.",
+                          "descriptionId":  "power_surge_description",
+                          "iconPath":  "Icons/PowerSurge.png",
+                          "name":  "Power Surge",
+                          "tooltip":  "Deal 160 bonus magic damage to a single target. \u0026lt;img class=\u0027tooltip-icon\u0027 src=\u0027hud/img/icons/Magic.png\u0027 /\u0026gt; Magic ability damage."
+                      },
+                      {
+                          "_id":  "high_voltage_ability_id",
+                          "category":  "abilities",
+                          "description":  "Restores $1 mana with each attack",
+                          "descriptionId":  "high_voltage_description",
+                          "iconPath":  "Icons/MagneticAccelerator.png",
+                          "name":  "Magnetic Accelerator",
+                          "tooltip":  "Restores 0.33 mana with each attack"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  "2.47",

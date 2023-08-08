@@ -3,7 +3,13 @@
     "unitId":  "town_redraw_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "accept_mythium_ability_id"
+                      {
+                          "_id":  "accept_mythium_ability_id",
+                          "category":  "abilities",
+                          "descriptionId":  "none_description",
+                          "iconPath":  "Icons/AcceptMythium.png",
+                          "name":  "Accept Mythium"
+                      }
                   ],
     "armorType":  "",
     "aspdInverted":  "",

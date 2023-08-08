@@ -3,8 +3,23 @@
     "unitId":  "pyro_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "pyro_splash_ability_id",
-                      "pyromancy_air_ability_id"
+                      {
+                          "_id":  "pyro_splash_ability_id",
+                          "aoeRange":  "150",
+                          "category":  "abilities",
+                          "description":  "Each attack deals $1% ($2% to flying) damage to nearby enemies. Ability damage.",
+                          "descriptionId":  "pyro_splash_description",
+                          "iconPath":  "Icons/Pyromancy.png",
+                          "name":  "Pyromancy",
+                          "tooltip":  "Each attack deals 50% (30% to flying) damage to nearby enemies. Ability damage."
+                      },
+                      {
+                          "_id":  "pyromancy_air_ability_id",
+                          "aoeRange":  "150",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/Pyromancy.png",
+                          "name":  "Pyromancy"
+                      }
                   ],
     "armorType":  "Fortified",
     "aspdInverted":  "1.31",

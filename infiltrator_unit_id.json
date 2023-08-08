@@ -3,12 +3,46 @@
     "unitId":  "infiltrator_unit_id",
     "version":  "10.07",
     "abilities":  [
-                      "arm_with_shuriken_ability_id",
-                      "throw_shuriken_ability_id",
-                      "mana_transfer_on_becomes_fighter_ability_id",
-                      "reset_mana_on_becomes_tower_ability_id",
-                      "start_with_0_mana_ability_id",
-                      "disable_mana_regen_ability_id"
+                      {
+                          "_id":  "arm_with_shuriken_ability_id",
+                          "category":  "abilities",
+                          "description":  "Pay gold to equip with a shuriken for the next wave only. Each shuriken deals $1 bonus damage from range. Ability damage.",
+                          "descriptionId":  "arm_with_shuriken_description",
+                          "iconPath":  "Icons/ArmWithShuriken.png",
+                          "name":  "Arm With Shuriken",
+                          "tooltip":  "Pay gold to equip with a shuriken for the next wave only. Each shuriken deals 35 bonus damage from range. Ability damage."
+                      },
+                      {
+                          "_id":  "throw_shuriken_ability_id",
+                          "baseDamage":  "35.00000",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ThrowShuriken.png",
+                          "name":  "Throw Shuriken"
+                      },
+                      {
+                          "_id":  "mana_transfer_on_becomes_fighter_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ManaTransferOnBecomesFighter.png",
+                          "name":  "Mana Transfer On Becomes Fighter"
+                      },
+                      {
+                          "_id":  "reset_mana_on_becomes_tower_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/ResetManaOnBecomesTower.png",
+                          "name":  "Reset Mana On Becomes Tower"
+                      },
+                      {
+                          "_id":  "start_with_0_mana_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/StartWith0Mana.png",
+                          "name":  "Start With 0 Mana"
+                      },
+                      {
+                          "_id":  "disable_mana_regen_ability_id",
+                          "category":  "abilities",
+                          "iconPath":  "Icons/DisableManaRegen.png",
+                          "name":  "Disable Mana Regen"
+                      }
                   ],
     "armorType":  "Swift",
     "aspdInverted":  "1.05",
