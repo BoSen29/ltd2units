@@ -1,9 +1,0 @@
-{
-    "_id":  "lightning_hammer_activator_ability_id",
-    "category":  "abilities",
-    "description":  "Uses mana to unleash bouncing lightning bolts that deal Pure damage.",
-    "descriptionId":  "lightning_hammer_description",
-    "iconPath":  "Icons/LightningHammer.png",
-    "name":  "Lightning Hammer",
-    "tooltip":  "Uses mana to unleash bouncing lightning bolts that deal Pure damage."
-}

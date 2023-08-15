@@ -1,7 +1,0 @@
-{
-    "_id":  "cleave_air_ability_id",
-    "aoeRange":  "150",
-    "category":  "abilities",
-    "iconPath":  "Icons/Cleave.png",
-    "name":  "Cleave"
-}

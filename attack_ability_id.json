@@ -1,7 +1,0 @@
-{
-    "_id":  "attack_ability_id",
-    "category":  "abilities",
-    "descriptionId":  "none_description",
-    "iconPath":  "Icons/Attack.png",
-    "name":  "Attack"
-}

@@ -1,7 +1,0 @@
-{
-    "_id":  "protection_aura_spell_ability_id",
-    "aoeRange":  "1000",
-    "category":  "abilities",
-    "iconPath":  "Icons/ProtectionAura.png",
-    "name":  "Protection Aura"
-}

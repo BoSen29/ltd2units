@@ -1,7 +1,0 @@
-{
-    "_id":  "cancel_ability_id",
-    "category":  "abilities",
-    "descriptionId":  "none_description",
-    "iconPath":  "Icons/CancelConstruction.png",
-    "name":  "Cancel Construction"
-}

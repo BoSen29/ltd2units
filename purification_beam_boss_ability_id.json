@@ -1,7 +1,0 @@
-{
-    "_id":  "purification_beam_boss_ability_id",
-    "baseDamage":  "8.00000",
-    "category":  "abilities",
-    "iconPath":  "Icons/PurificationBeam.png",
-    "name":  "Purification Beam"
-}

@@ -1,7 +1,0 @@
-{
-    "_id":  "sorcery_ability_id",
-    "aoeRange":  "120",
-    "category":  "abilities",
-    "iconPath":  "Icons/Sorcery.png",
-    "name":  "Sorcery"
-}

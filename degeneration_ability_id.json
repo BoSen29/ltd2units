@@ -1,9 +1,0 @@
-{
-    "_id":  "degeneration_ability_id",
-    "category":  "abilities",
-    "description":  "Summoned units degenerate $1% max health per second",
-    "descriptionId":  "none_description",
-    "iconPath":  "Icons/Pet.png",
-    "name":  "Pet",
-    "tooltip":  "Summoned units degenerate 2% max health per second"
-}

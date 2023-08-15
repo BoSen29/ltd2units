@@ -1,9 +1,0 @@
-{
-    "_id":  "undo_stimpack_ability_id",
-    "category":  "abilities",
-    "description":  "Undo",
-    "descriptionId":  "undo_description",
-    "iconPath":  "Icons/UndoStimpack.png",
-    "name":  "Undo Stimpack",
-    "tooltip":  "Undo"
-}

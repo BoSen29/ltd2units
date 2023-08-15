@@ -1,7 +1,0 @@
-{
-    "_id":  "leadership_boss_ability_id",
-    "aoeRange":  "1000",
-    "category":  "abilities",
-    "iconPath":  "Icons/LeadershipAura.png",
-    "name":  "Leadership Aura"
-}

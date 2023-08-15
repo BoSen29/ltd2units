@@ -1,9 +1,0 @@
-{
-    "_id":  "evasion_ability_id",
-    "category":  "abilities",
-    "description":  "Reduces damage taken from autoattacks (non-ability damage) by $1%",
-    "descriptionId":  "ghostwalker_description",
-    "iconPath":  "Icons/GhostWalker.png",
-    "name":  "Ghost Walker",
-    "tooltip":  "Reduces damage taken from autoattacks (non-ability damage) by 20%"
-}

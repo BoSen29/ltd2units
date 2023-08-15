@@ -1,7 +1,0 @@
-{
-    "_id":  "tower_autoattack_ability_id",
-    "category":  "abilities",
-    "descriptionId":  "none_description",
-    "iconPath":  "Icons/TowerAutoAttack.png",
-    "name":  "Tower AutoAttack"
-}

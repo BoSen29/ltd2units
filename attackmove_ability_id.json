@@ -1,7 +1,0 @@
-{
-    "_id":  "attackmove_ability_id",
-    "category":  "abilities",
-    "descriptionId":  "none_description",
-    "iconPath":  "Icons/AttackMove.png",
-    "name":  "Attack Move"
-}

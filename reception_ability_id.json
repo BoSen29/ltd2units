@@ -1,9 +1,0 @@
-{
-    "_id":  "reception_ability_id",
-    "category":  "abilities",
-    "description":  "Allows for deployment of Mech units",
-    "descriptionId":  "reception_description",
-    "iconPath":  "Icons/Reception.png",
-    "name":  "Reception",
-    "tooltip":  "Allows for deployment of Mech units"
-}

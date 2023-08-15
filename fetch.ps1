@@ -19,10 +19,10 @@ if ($data.version) {
         $abilities += Invoke-RestMethod -Uri "$($baseuri)info/abilities/$($_ * 50)/50" -Headers $headers -Method GET -ErrorAction SilentlyContinue
     }
 
-    $abilities | ForEach-Object {
-        Set-Content -Path "$($_._id).json" -Value ($_ | ConvertTo-Json -Depth 4)
-    }
-
+    # $abilities | ForEach-Object {
+    #     Set-Content -Path "$($_._id).json" -Value ($_ | ConvertTo-Json -Depth 4)
+    # }
+    
     $units | ForEach-Object {
         $ab = $_.abilities | ConvertTo-Json | ConvertFrom-Json
         $_.abilities = @()
@@ -30,6 +30,36 @@ if ($data.version) {
             Write-Host $abilitiy
             $_.abilities += ($abilities | Where-Object {$_._id -eq $ability})
         }
-        Set-Content -path "$($_.unitId).json" -Value ($_ | ConvertTo-Json -Depth 4)
     }
+    $units | Select-Object @(
+        "unitId", 
+        "version", 
+        "abilities", 
+        "armorType", 
+        "attackMode", 
+        "attackRange", 
+        "attackSpeed", 
+        "attackType", 
+        "description",
+        "descriptionId",
+        "dps",
+        "flags",
+        "goldCost",
+        "goldValue",
+        "hp",
+        "iconPath",
+        "incomeBonus",
+        "infoTier",
+        "legionId",
+        "moveType",
+        "mythiumCost",
+        "name",
+        "rangeText",
+        "splashPath",
+        "tooltip",
+        "totalValue",
+        "unitClass",
+        "upgradesFrom",
+        "infoSketchfab"
+        ) | ConvertTo-Json -Depth 5 | Out-File units.json
 }

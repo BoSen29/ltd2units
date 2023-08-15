@@ -1,7 +1,0 @@
-{
-    "_id":  "vampirism_aura_ability_id",
-    "aoeRange":  "120",
-    "category":  "abilities",
-    "iconPath":  "Icons/Vampirism.png",
-    "name":  "Vampirism"
-}

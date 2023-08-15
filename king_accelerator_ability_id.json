@@ -1,9 +1,0 @@
-{
-    "_id":  "king_accelerator_ability_id",
-    "category":  "abilities",
-    "description":  "Restores $1 mana with each attack",
-    "descriptionId":  "imbue_description",
-    "iconPath":  "Icons/Imbue.png",
-    "name":  "Imbue",
-    "tooltip":  "Restores 1 mana with each attack"
-}
