@@ -27,10 +27,12 @@ if ($data.version) {
         $ab = $_.abilities | ConvertTo-Json | ConvertFrom-Json
         $_.abilities = @()
         foreach ($ability in $ab) {
-            Write-Host $abilitiy
             $_.abilities += ($abilities | Where-Object {$_._id -eq $ability})
         }
     }
+
+    $kingup = Invoke-RestMethod -Uri "$($baseuri)info/research/0/50" -Headers $headers -Method GET
+    $units += $kingup
     $units | Select-Object @(
         "unitId", 
         "version", 
@@ -60,6 +62,7 @@ if ($data.version) {
         "totalValue",
         "unitClass",
         "upgradesFrom",
-        "infoSketchfab"
+        "infoSketchfab",
+        "_id"
         ) | ConvertTo-Json -Depth 5 | Out-File units.json
 }
