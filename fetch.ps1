@@ -30,6 +30,8 @@ if ($data.version) {
             $_.abilities += ($abilities | Where-Object {$_._id -eq $ability})
         }
     }
+    $powerup = Invoke-RestMethod -Uri "$($baseuri)info/spells/0/50" -Headers $headers -Method GET
+    $units += $powerup
 
     $kingup = Invoke-RestMethod -Uri "$($baseuri)info/research/0/50" -Headers $headers -Method GET
     $units += $kingup
