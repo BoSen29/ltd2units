@@ -1,0 +1,72 @@
+[
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant5.png",
+        "name":  "Chaos",
+        "tooltip":  "+5 Income, new roll every wave. No Rerolls"
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant1.png",
+        "name":  "Lock-In",
+        "tooltip":  "+3 Income, Lock a fighter"
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant2.png",
+        "name":  "Greed",
+        "tooltip":  "+5 Income"
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant3.png",
+        "name":  "Redraw",
+        "tooltip":  "+3 Income, +3 Reroll"
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant4.png",
+        "name":  "Yolo",
+        "tooltip":  "+7 Income, fully random roll. Reroll costs 1 Income"
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant6.png",
+        "name":  "Hybrid",
+        "tooltip":  "+5 Income, every fighter is random. No Rerolls"
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant7.png",
+        "name":  "Fiesta",
+        "tooltip":  "When you leak, gain 14-50 Gold based on the wave number"
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant8.png",
+        "name":  "Cash Out",
+        "tooltip":  "+21 Gold"
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant9.png",
+        "name":  "Castle",
+        "tooltip":  "+45 Income after wave 10"
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant10.png",
+        "name":  "Cartel",
+        "tooltip":  "+9 Income, -36 Income after wave 10"
+    }
+]

@@ -33,6 +33,11 @@ if ($data.version) {
     $powerup = Invoke-RestMethod -Uri "$($baseuri)info/spells/0/50" -Headers $headers -Method GET
     $units += $powerup
 
+    $legions = Invoke-RestMethod -Uri "$($baseuri)info/legions/0/50" -Headers $headers -Method GET
+    $units += $legions
+
+    $units += Get-Content .\static.json | ConvertFrom-Json
+
     $kingup = Invoke-RestMethod -Uri "$($baseuri)info/research/0/50" -Headers $headers -Method GET
     $units += $kingup
     $units | Select-Object @(
