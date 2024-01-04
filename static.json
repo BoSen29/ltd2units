@@ -68,5 +68,33 @@
         "iconPath":  "icons/Items/MastermindVariant10.png",
         "name":  "Cartel",
         "tooltip":  "+9 Income, -36 Income after wave 10"
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant12.png",
+        "name":  "Champion",
+        "tooltip":  "Once per game, permamently grant +8% attack speed and damage reduction to a figher."
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant13.png",
+        "name":  "Kingsguard",
+        "tooltip":  "+2 Income, start the game with 2 of each king upgrades."
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant14.png",
+        "name":  "Double Lock-In",
+        "tooltip":  "+1 Income, lock-in two fighters of your choice."
+    },
+    {
+        "_id":  "unbeknownst",
+        "category":  "legions",
+        "iconPath":  "icons/Items/MastermindVariant15.png",
+        "name":  "Megamind",
+        "tooltip":  "+1 Income, picks another random Mastermind."
     }
 ]
