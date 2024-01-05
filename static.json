@@ -95,6 +95,6 @@
         "category":  "legions",
         "iconPath":  "icons/Items/MastermindVariant15.png",
         "name":  "Megamind",
-        "tooltip":  "+1 Income, picks another random Mastermind."
+        "tooltip":  "+1 Gold, picks another random Mastermind."
     }
 ]
